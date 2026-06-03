@@ -1,6 +1,11 @@
 import './App.css';
 import UserProfile from './components/UserProfile';
 import ProductInfo from './components/ProductInfo';
+import LifecycleDemo from './components/LifecycleDemo';
+import BadCounter from './components/BadCounter';
+import GoodCounter from './components/GoodCounter';
+import FlowDemo from './components/FlowDemo';
+
 
 function App() {
     return (
@@ -13,6 +18,12 @@ function App() {
                 <li>JavaScript</li>
                 <li>React</li>
             </ul>
+            <UserProfile />
+            <ProductInfo />
+            <LifecycleDemo />
+            <BadCounter />
+            <GoodCounter />
+            <FlowDemo />
         </div>
     );
 }
